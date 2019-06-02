@@ -19,6 +19,6 @@ Welcome to this workshop. Whether you have never worked with React before or you
 - Git installed on your machine
 - This repo cloned down onto your machine
 - Parcel installed globally on your machine (npm install -g parcel-bundler)
-- A JSX Friendly editor (I reccomend Visual Studio Code)
+- A JSX Friendly editor (I recommend Visual Studio Code)
 - React Developer Tools installed on your browser
  - A good attitude! We have a lot to cover, and we are going to learn a lot! So lets have fun with it!
