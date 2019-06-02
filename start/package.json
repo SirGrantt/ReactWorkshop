@@ -4,6 +4,7 @@
   "description": "Introductory Workshop for React",
   "main": "index.js",
   "scripts": {
+    "start": "parcel ./src/index.html",
     "test": "test"
   },
   "repository": {
@@ -21,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/SirGrantt/ReactWorkshop/issues"
   },
-  "homepage": "https://github.com/SirGrantt/ReactWorkshop#readme"
+  "homepage": "https://github.com/SirGrantt/ReactWorkshop#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0"
+  }
 }
