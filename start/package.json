@@ -1,0 +1,25 @@
+{
+  "name": "git-r-done-react-workshop",
+  "version": "1.0.0",
+  "description": "Introductory Workshop for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirGrantt/ReactWorkshop.git"
+  },
+  "keywords": [
+    "React",
+    "Training",
+    "Hooks",
+    "Parcel"
+  ],
+  "author": "Grant Elmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirGrantt/ReactWorkshop/issues"
+  },
+  "homepage": "https://github.com/SirGrantt/ReactWorkshop#readme"
+}
