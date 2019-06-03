@@ -27718,12 +27718,22 @@ var TodoItem = function TodoItem(_ref) {
     setComplete(id);
   }
 
+  function handleRemoveTodo() {
+    removeTodo(id);
+  }
+
   return _react.default.createElement("li", {
     className: "todo-item"
   }, _react.default.createElement("div", {
-    className: complete ? "completed-todo" : "incomplete-todo",
+    className: complete ? "completed-todo" : "incomplete-todo"
+  }, title, _react.default.createElement("span", {
+    onClick: handleRemoveTodo
+  }, "x"), _react.default.createElement("input", {
+    type: "button",
+    className: "todo-button",
+    value: complete ? "mark incomplete" : "mark complete",
     onClick: handleSetComplete
-  }, title));
+  })));
 };
 
 var _default = TodoItem;
@@ -27871,6 +27881,7 @@ var TodoContainer = function TodoContainer(_ref) {
   };
 
   var setComplete = function setComplete(id) {
+    console.log("hi");
     var updated = todos.map(function (t) {
       t.complete = t.id === id ? !t.complete : t.complete;
       return t;
@@ -27878,10 +27889,11 @@ var TodoContainer = function TodoContainer(_ref) {
     updateTodos(updated);
   };
 
-  var removeTodo = function removeTodo(todoId) {
+  var removeTodo = function removeTodo(id) {
     var updatedTodos = todos.filter(function (t) {
-      return t.id !== todoId;
+      return t.id !== id;
     });
+    console.log(updatedTodos);
     updateTodos(updatedTodos);
   };
 
@@ -27982,7 +27994,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61104" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63121" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -22,7 +22,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  cursor: pointer;
+  cursor: initial;
   user-select: none;
 }
 
@@ -34,6 +34,26 @@
 .incomplete-todo {
   color: blue;
   text-decoration: none;
+}
+
+.todo-button {
+  background-color: white;
+  border-radius: 8px;
+  float: right;
+  border: 2px solid blue;
+  margin-right: 1rem;
+  cursor: pointer;
+  min-width: 10rem;
+}
+
+span {
+  float: right;
+  color: black;
+  cursor: pointer;
+}
+
+span:hover {
+  color: gray;
 }
 
 ul {
