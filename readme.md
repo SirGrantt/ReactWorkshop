@@ -12,7 +12,7 @@ Welcome to the Git'R Done React Workshop! Whether you have never worked with Rea
 
 As a way to interactively learn these things, we are going to be building the world's best Todo list. :earth_americas::scroll::pencil2:
 
-So if you are ready to be come a React Ninja:atom_symbol: then make sure you have everything listed below, and lets Git'R Done!
+So if you are ready to become a React Ninja:atom_symbol: then make sure you have everything listed below, and lets Git'R Done!
 
 ## What should you have with you?
 
