@@ -5,7 +5,7 @@ Welcome to the Git'R Done React Workshop! Whether you have never worked with Rea
 - setting up a new project (we are going to use parcel :package::smile:)
 - the fundamental parts of a React app (where the magic happens :milky_way:)
 - the different ways you can create and manage components (whew there are a lot :open_mouth:)
-- the basics of state and event management :wrench:
+- the basics of state and event management (data binding!) :wrench:
 - new features in React 16 (ooo shiny :sparkles:)
 - styling using styled-components :nail_care:
 - testing using jest and enzyme :microscope:
