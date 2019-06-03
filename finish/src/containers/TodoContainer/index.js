@@ -28,7 +28,6 @@ const TodoContainer = ({}) => {
   };
 
   const setComplete = id => {
-    console.log("hi");
     const updated = todos.map(t => {
       t.complete = t.id === id ? !t.complete : t.complete;
       return t;
@@ -39,7 +38,6 @@ const TodoContainer = ({}) => {
 
   const removeTodo = id => {
     const updatedTodos = todos.filter(t => t.id !== id);
-    console.log(updatedTodos);
     updateTodos(updatedTodos);
   };
 
