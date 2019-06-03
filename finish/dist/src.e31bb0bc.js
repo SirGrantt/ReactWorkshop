@@ -27881,7 +27881,6 @@ var TodoContainer = function TodoContainer(_ref) {
   };
 
   var setComplete = function setComplete(id) {
-    console.log("hi");
     var updated = todos.map(function (t) {
       t.complete = t.id === id ? !t.complete : t.complete;
       return t;
@@ -27893,7 +27892,6 @@ var TodoContainer = function TodoContainer(_ref) {
     var updatedTodos = todos.filter(function (t) {
       return t.id !== id;
     });
-    console.log(updatedTodos);
     updateTodos(updatedTodos);
   };
 
@@ -27966,7 +27964,7 @@ var _App = _interopRequireDefault(require("./components/App"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 _reactDom.default.render(_react.default.createElement(_App.default, null), document.getElementById("root"));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./components/App":"components/App.js"}],"../../../../../Users/gelmer/AppData/Roaming/nvm/v11.12.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","./components/App":"components/App.js"}],"../../../../../Users/gelmer/AppData/Roaming/nvm/v12.3.1/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -27994,7 +27992,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63121" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49506" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -28169,5 +28167,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../Users/gelmer/AppData/Roaming/nvm/v11.12.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
+},{}]},{},["../../../../../Users/gelmer/AppData/Roaming/nvm/v12.3.1/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","index.js"], null)
 //# sourceMappingURL=/src.e31bb0bc.js.map

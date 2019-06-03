@@ -17,7 +17,7 @@ So if you are ready to become a React Ninja:atom_symbol: then make sure you have
 ## What should you have with you?
 
 - Your laptop
-- Node installed on your machine (At least 10.16.0 so that we don't have any version issues)
+- Node installed on your machine (At least Node 8 so that we don't have any version issues)
 - Git installed on your machine
 - This repo cloned down onto your machine
 - Parcel installed globally on your machine (npm install -g parcel-bundler)
