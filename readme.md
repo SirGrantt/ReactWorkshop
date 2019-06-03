@@ -1,4 +1,4 @@
-# Git'R Done React Workshop
+# Git'R(eact) Done React Workshop
 
 Welcome to the Git'R Done React Workshop! Whether you have never worked with React before, or you are using it daily, my hope is that this workshop will have something for you. We are going to cover:
 
@@ -12,7 +12,7 @@ Welcome to the Git'R Done React Workshop! Whether you have never worked with Rea
 
 As a way to interactively learn these things, we are going to be building the world's best Todo list. :earth_americas::scroll::pencil2:
 
-So if you are ready to become a React Ninja:atom_symbol: then make sure you have everything listed below, and lets Git'R Done!
+So if you are ready to become a React Ninja:atom_symbol: then make sure you have everything listed below, and lets Git'R(eact) Done!
 
 ## What should you have with you?
 
