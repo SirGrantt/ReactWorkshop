@@ -21,4 +21,14 @@ const todos = [
   }
 ];
 
-export { todos };
+const api = {
+  fetchTodos: async function fetchTodos() {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve(todos);
+      }, 2000);
+    });
+  }
+};
+
+export { todos, api };
