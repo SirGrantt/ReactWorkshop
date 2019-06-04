@@ -36,24 +36,102 @@
   text-decoration: none;
 }
 
-.todo-button {
-  background-color: white;
-  border-radius: 8px;
-  float: right;
-  border: 2px solid blue;
-  margin-right: 1rem;
-  cursor: pointer;
-  min-width: 10rem;
+.todo-toggle {
+  opacity: 0;
 }
 
-span {
+.todo-toggle-label {
+  display: block;
+  position: relative;
+  margin: auto;
+  cursor: pointer;
+  // font-size: 22px;
+  // line-height: 24px;
+  // height: 24px;
+  // width: 24px;
+  clear: both;
+}
+
+.todo-toggle-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.todo-toggle-label .todo-toggle-span {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 12px;
+  width: 12px;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  border: 2px solid #009bff;
+}
+
+.todo-toggle-label input:checked ~ .todo-toggle-span {
+  background-color: #ffffff;
+  border-radius: 5px;
+  -webkit-transform: rotate(0deg) scale(1);
+  -ms-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+  border: 2px solid #009bff;
+}
+
+.todo-toggle-label .todo-toggle-span::after {
+  position: absolute;
+  content: "";
+  left: 12px;
+  top: 12px;
+  height: 0px;
+  width: 0px;
+  border-radius: 5px;
+  border: solid #009bff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(0deg) scale(0);
+  -ms-transform: rotate(0deg) scale(0);
+  transform: rotate(0deg) scale(0);
+  opacity: 1;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.todo-toggle-label input:checked ~ .todo-toggle-span::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity: 1;
+  left: 4px;
+  top: 1px;
+  width: 3px;
+  height: 6px;
+  border: solid #009bff;
+  border-width: 0 2px 2px 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.todo-delete {
   float: right;
   color: black;
   cursor: pointer;
 }
 
-span:hover {
+.todo-delete:hover {
   color: gray;
+}
+
+.todo-text {
+  margin-left: 40px;
 }
 
 ul {
@@ -65,4 +143,14 @@ ul > li:hover {
 }
 
 .todo-input {
+  margin: 1em;
+  border-radius: 4px;
+}
+
+.todo-button {
+  background-color: #009bff;
+  border-radius: 4px;
+  width: 60px;
+  height: 25px;
+  color: white;
 }

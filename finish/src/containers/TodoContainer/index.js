@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { api } from "../../utilities/api";
 import TodoList from "../../components/Todo/TodoList";
+import TodoInputForm from "../../components/Todo/TodoInputForm";
 
 const TodoContainer = ({}) => {
   const [todos, updateTodos] = useState([]);
@@ -51,7 +52,7 @@ const TodoContainer = ({}) => {
         setComplete={setComplete}
         removeTodo={removeTodo}
       />
-      {/* <TodoInput addTodo={addTodo} /> */}
+      <TodoInputForm addTodo={addTodo} />
     </div>
   );
 };
