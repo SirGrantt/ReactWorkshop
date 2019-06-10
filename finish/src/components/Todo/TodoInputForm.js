@@ -20,7 +20,7 @@ const TodoInputForm = ({ addTodo }) => {
   };
   return (
     <form onSubmit={onSubmit}>
-      <label htmlFor="todo-input">New Todo</label>
+      <label htmlFor="todo-input">New To Do</label>
       <input
         className="todo-input"
         type="text"

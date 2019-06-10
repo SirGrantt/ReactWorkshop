@@ -47,7 +47,7 @@ const TodoContainer = ({}) => {
   ) : (
     <div className="todo-container">
       <TodoList
-        title="World's Best Todo List"
+        title="World's Best To Do List"
         todos={todos}
         setComplete={setComplete}
         removeTodo={removeTodo}
