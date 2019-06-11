@@ -24,3 +24,21 @@ So if you are ready to become a React Ninja:atom_symbol: then make sure you have
 - A JSX Friendly editor (I recommend Visual Studio Code)
 - React Developer Tools installed on your browser
 - A good attitude! We have a lot to cover, and we are going to learn a lot! So lets have fun with it!
+
+## Are you Ready?
+
+After you have this repo cloned onto your computer and have everything mentioned above, change directory in the start folder. From there run
+
+```
+npm install
+```
+
+and then
+
+```
+npm start
+```
+
+You should see the terminal indicate that the server is running. Visit the localhost it indicates (likely localhost:1234) and you should see a Hello World!. If you do then you are all set to begin the workshop.
+
+See you all soon!
