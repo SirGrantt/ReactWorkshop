@@ -1,12 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import TodoItem from "./TodoItem";
+import styled from "styled-components";
+
+const StyledTodoList = styled.ul`
+  padding-left: 0;
+  margin-bottom: 20px;
+`;
 
 const TodoList = ({ title, todos, setComplete, removeTodo }) => {
   return (
     <>
       <h1>{title}</h1>
-      <ul className="todo-list">
+      <StyledTodoList>
         {todos.map(t => (
           <TodoItem
             key={t.id}
@@ -17,7 +23,7 @@ const TodoList = ({ title, todos, setComplete, removeTodo }) => {
             complete={t.complete}
           />
         ))}
-      </ul>
+      </StyledTodoList>
     </>
   );
 };
