@@ -22,7 +22,7 @@ So if you are ready to become a React Ninja:atom_symbol: then make sure you have
 - This repo cloned down onto your machine
 - Parcel installed globally on your machine (npm install -g parcel-bundler)
 - A JSX Friendly editor (I recommend Visual Studio Code)
-- React Developer Tools installed on your browser
+- React Developer Tools installed on your browser (Use Chrome so we are all on the same page)
 - A good attitude! We have a lot to cover, and we are going to learn a lot! So lets have fun with it!
 
 ## Are you Ready?
